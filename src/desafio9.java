@@ -12,10 +12,10 @@ import javax.swing.*;
 
 public class desafio9 {
     public static void main(String[] args) {
-        // Criando um vetor de 20 posições
+       
         int[] vetor = new int[20];
 
-        // Preenchendo o vetor com números aleatórios entre 0 e 99
+       
         Random random = new Random();
         for (int i = 0; i < 20; i++) {
             vetor[i] = random.nextInt(100); // Gera um número aleatório entre 0 e 99
@@ -39,26 +39,26 @@ public class desafio9 {
 
 //public class desafio9 {
 //    public static void main(String[] args) {
-//                // Criando um vetor de 20 posições
-//                int[] vetor = new int[20];
+//                 
+//              int[] vetor = new int[20];
 //
-//                // Preenchendo o vetor com números aleatórios entre 0 e 99
+//                
 //                Random random = new Random();
 //                for (int i = 0; i < 20; i++) {
-//                    vetor[i] = random.nextInt(100); // Gera um número aleatório entre 0 e 99
+//                    vetor[i] = random.nextInt(100); 
 //                }
 //
-//                // Exibindo os números gerados aleatoriamente
+//                
 //                System.out.println("Vetor com números aleatórios:");
 //                for (int i = 0; i < 20; i++) {
 //                    System.out.print(vetor[i] + " ");
 //                }
 //                System.out.println();
 //
-//                // Ordenando o vetor em ordem crescente
+//                
 //                Arrays.sort(vetor);
 //
-//                // Exibindo o vetor após a ordenação
+//               
 //                System.out.println("Vetor ordenado em ordem crescente:");
 //                for (int i = 0; i < 20; i++) {
 //                    System.out.print(vetor[i] + " ");
