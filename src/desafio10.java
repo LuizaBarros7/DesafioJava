@@ -24,7 +24,7 @@ public class desafio10 {
             n2 = proximo;
         }
 
-        // Exibe a sequência com "FIM" no final
+      
         JOptionPane.showMessageDialog(null, resultado + "FIM");
     }
 
