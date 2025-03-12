@@ -25,7 +25,7 @@ public class desafio7 {
 
 
         for (int i = 1; i <= 10; i++) {
-            termosPA += termo + " "; // Adiciona o termo à sequência
+            termosPA += termo + " "; 
             soma += termo; 
             termo += razao; 
         }
