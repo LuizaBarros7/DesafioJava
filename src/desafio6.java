@@ -21,7 +21,7 @@ import java.util.Random;
 public class desafio6 {
     public static void main(String[] args) {
         Random random = new Random();
-        int sorteado = random.nextInt(10) + 1; // Sorteia um número entre 1 e 10
+        int sorteado = random.nextInt(10) + 1;
 
         int tentativas = 0;
         int usuario = 0;
