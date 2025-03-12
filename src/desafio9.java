@@ -18,7 +18,7 @@ public class desafio9 {
        
         Random random = new Random();
         for (int i = 0; i < 20; i++) {
-            vetor[i] = random.nextInt(100); // Gera um número aleatório entre 0 e 99
+            vetor[i] = random.nextInt(100); 
         }
 
         String numerosGerados = "";
