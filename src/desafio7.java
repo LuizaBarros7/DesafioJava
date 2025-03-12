@@ -26,11 +26,11 @@ public class desafio7 {
 
         for (int i = 1; i <= 10; i++) {
             termosPA += termo + " "; // Adiciona o termo à sequência
-            soma += termo; // Soma o termo à variável soma
-            termo += razao; // Atualiza o termo com a razão
+            soma += termo; 
+            termo += razao; 
         }
 
-        // Exibindo os resultados usando JOptionPane
+         
         JOptionPane.showMessageDialog(null, "Os 10 primeiros termos da PA são:\n" + termosPA);
         JOptionPane.showMessageDialog(null, "A soma de todos os termos da PA é: " + soma);
     }
